@@ -1,0 +1,147 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+    font-size: 20px;
+    color: black;
+}
+
+h1, h2, button {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 120%;
+    letter-spacing: 0.1rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 1.1rem;
+    background-color: #5222D0;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    text-decoration: none;
+    display: inline-flex; 
+    align-items: baseline;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+h1 {
+    font-size: 3.3rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+.menu-footer__item-link {
+    color: #5222D0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-top {
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.banner {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40% 15% 15% 1fr;
+    grid-template-areas: "h1 banner"
+                        "p banner"
+                        "button banner"
+                        "footer banner";
+    column-gap: 5rem;
+    row-gap: 2rem;
+}
+
+.banner__title {
+    grid-area: h1;
+}
+
+.banner__text {
+    grid-area: p;
+}
+
+.banner__button {
+    grid-area: button;
+}
+
+.banner__image {
+    grid-area: banner;
+}
+
+.banner__image {
+    max-width: 700px;
+}
+
+.menu-footer__item {
+    margin-right: 2rem;
+}
+
+.banner__button {
+    justify-self: center;
+    margin-top: 0;
+    max-width: 300px;
+    max-height: 84px;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 3rem;
+    font-size: 1.7rem;
+}
+
+.menu-top__item_checkout-icon, 
+.banner__button-icon {
+    margin-left: 0.4rem;
+}
+
+.title, .menu-footer2 {
+    padding-left: 4rem;
+}
+
+.features-container {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60% 30%;
+    gap: 3rem;
+}
+
+.subscribe {
+    background-color: #EC615B;
+    padding: 0 2rem 1rem 2rem;
+}
+
+.subscribe__title {
+    color: white;
+}
+
+.subscribe__contact-field {
+    min-height: 35px;
+    max-height: 50px;
+    width: 100%;
+    border: none;
+}
+
+.subscribe__button {
+    font-size: 0.8rem;
+}
+
+.menu-footer__item > a  {
+    color: black;
+}
