@@ -75,6 +75,7 @@ a {
 
 .banner__text {
     grid-area: p;
+    margin-top: 0;
 }
 
 .banner__button {
@@ -94,7 +95,6 @@ a {
 }
 
 .banner__button {
-    justify-self: center;
     margin-top: 0;
     max-width: 300px;
     max-height: 84px;
